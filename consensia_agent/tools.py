@@ -265,7 +265,7 @@ def get_related_news_gnews(date: str, topic: str) -> dict:
             "q": search_query,  # Keywords or phrases to search for
             "token": api_key,   # API key parameter (should be 'token' not 'apikey')
             "lang": "en",       # English language
-            "max": 5,          # Maximum number of results
+            "max": 10,          # Maximum number of results
             "expand": "content" # Expand the content to get full articles instead of truncated versions
         }
         
